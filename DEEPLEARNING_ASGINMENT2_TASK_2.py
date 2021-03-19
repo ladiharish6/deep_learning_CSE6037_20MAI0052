@@ -6,13 +6,13 @@
 
 #LADI HARISH KUMAR #20MAI0052 #Deep Learning and its Applications (CSE6037) LAB
 
-Assignment 2 
-LAB TASK 2 
-Take a random image and apply convolution method using this following filters
-(2A) Applying Box filter of 3 X 3 and 5 X 5 and compare it.
-(2B)Applying Box filter of 3 X 3 and 5 X 5 and compare it. HERE THE STRIDE=2 
-(2C)Apply zero padding before applying Box filter of 3 X 3 and 5 X 5 and compare it
-And also Entropy of the input image is being calculated
+#Assignment 2 
+#LAB TASK 2 
+#Take a random image and apply convolution method using this following filters
+#(2A) Applying Box filter of 3 X 3 and 5 X 5 and compare it.
+#(2B)Applying Box filter of 3 X 3 and 5 X 5 and compare it. HERE THE STRIDE=2 
+#(2C)Apply zero padding before applying Box filter of 3 X 3 and 5 X 5 and compare it
+#And also Entropy of the input image is being calculated
 # In[67]:
 
 
@@ -26,7 +26,7 @@ from PIL import Image
 
 
 #reading the image from the local drive
-cat=cv2.imread("C:/cat_image.jpg")
+cat=cv2.imread("cat_image.jpg")
 #resizing the image square dimension
 cat=cv2.resize(cat,(600,600))
 #defining the filter of 3 X 3 size and applying it first
